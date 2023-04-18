@@ -7,11 +7,16 @@
     </head>
     <body>
         <div class="form_baseinfo_group">
-            <label for="moviedate">設定日期</label>
+            <label for="moviedate">設定初始日期
             <input type="date" class="form_baseinfo_control" id="moviedate">
+            </label>
         </div>
         <h1>社團課程時間表</h1>
         <table id="courseTable"></table>
+        <label for="name"> 輸入活動:
+            <input type="text" placeholder="EX.期中考" id="testInput" />
+            <button class="submitBtn">SUBMIT</button>
+        </label>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="topic.js"></script>
         <script src="main.js"></script>

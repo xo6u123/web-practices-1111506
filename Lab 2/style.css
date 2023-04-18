@@ -8,10 +8,21 @@ table{
     font-size: 1.5em;
 }
 
-td{
+td:nth-child(odd){
     border-style: outset ;
     border-left-style:solid; border-bottom-style:solid;
     border-bottom-color:#00d0ff;
     
+    
+}
+td:nth-child(even){
+    border-style:outset ;
+    border-left-style:solid; border-bottom-style:solid;
+    border-bottom-color:#ea00ff;
+    
+    
+}
+td:nth-child(1){
+    background-color:#00d0ff;
     
 }
